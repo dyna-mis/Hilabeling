@@ -2,9 +2,6 @@
 QGIS interactive labeling integration
 
 
-## <img src="dynamis_icon.gif" width="100"> Dynamic Maximum/Maximal Independent Set Solver
-for unit-height rectangle intersection graphs
-
 Github Page: https://dyna-mis.github.io/dynaMIS/
 # Requirements
 <ol>
@@ -38,5 +35,5 @@ Compile the source with the Debug/Makefile file.
 # Acknowledgments
 DynaMis is part of the project ["Human-Centered Algorithm Engineering: Graph and Map Visualization"](https://www.ac.tuwien.ac.at/research/humalgo/) supported by the Austrian Science Fund (FWF) under Grant P31119.
 # Reference
-More details see our paper "An Algorithmic Study of Fully Dynamic Independent Sets for Map Labeling"([ARXIV LINK](https://arxiv.org/abs/2002.07611))
+More details see our paper "Exploring Semi-Automatic Map Labeling"([ARXIV LINK](https://arxiv.org/abs/1910.07799))
 
