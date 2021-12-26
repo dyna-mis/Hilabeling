@@ -5,7 +5,6 @@ QGIS interactive labeling integration
 Github Page: https://dyna-mis.github.io/Hilabeling/
 # Requirements
 <ol>
-<li>CGAL (>= 4.11.2)</li>
 <li>  g++ </li>
 </ol>
 # Description
