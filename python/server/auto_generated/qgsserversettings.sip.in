@@ -1,0 +1,166 @@
+/************************************************************************
+ * This file has been generated automatically from                      *
+ *                                                                      *
+ * src/server/qgsserversettings.h                                       *
+ *                                                                      *
+ * Do not edit manually ! Edit header and run scripts/sipify.pl again   *
+ ************************************************************************/
+
+
+
+
+
+
+
+class QgsServerSettings
+{
+%Docstring
+Provides a way to retrieve settings by prioritizing according to environment variables, ini file and default values.
+
+.. versionadded:: 3.0
+%End
+
+%TypeHeaderCode
+#include "qgsserversettings.h"
+%End
+  public:
+
+    QgsServerSettings();
+%Docstring
+Constructor.
+%End
+
+    void load();
+%Docstring
+Load settings according to current environment variables.
+%End
+
+    bool load( const QString &envVarName );
+%Docstring
+Load setting for a specific environment variable name.
+
+:return: ``True`` if loading is successful, ``False`` in case of an invalid name.
+%End
+
+    void logSummary() const;
+%Docstring
+Log a summary of settings currently loaded.
+%End
+
+    QString iniFile() const;
+%Docstring
+Returns the ini file loaded by QSetting.
+
+:return: the path of the ini file or an empty string if none is loaded.
+%End
+
+    bool parallelRendering() const;
+%Docstring
+Returns parallel rendering setting.
+
+:return: ``True`` if parallel rendering is activated, ``False`` otherwise.
+%End
+
+    int maxThreads() const;
+%Docstring
+Returns the maximum number of threads to use.
+
+:return: the number of threads.
+%End
+
+    int maxCacheLayers() const;
+%Docstring
+Returns the maximum number of cached layers.
+
+:return: the number of cached layers.
+%End
+
+    Qgis::MessageLevel logLevel() const;
+%Docstring
+Returns the log level.
+
+:return: the log level.
+%End
+
+    QString projectFile() const;
+%Docstring
+Returns the QGS project file to use.
+
+:return: the path of the QGS project or an empty string if none is defined.
+%End
+
+    QString logFile() const;
+%Docstring
+Returns the log file.
+
+:return: the path of the log file or an empty string if none is defined.
+%End
+
+    bool logStderr() const;
+%Docstring
+Returns whether logging to stderr is activated.
+
+:return: ``True`` if logging to stderr is activated, ``False`` otherwise.
+
+.. versionadded:: 3.4
+%End
+
+    qint64 cacheSize() const;
+%Docstring
+Returns the cache size.
+
+:return: the cache size.
+%End
+
+    QString cacheDirectory() const;
+%Docstring
+Returns the cache directory.
+
+:return: the directory.
+%End
+
+    QString overrideSystemLocale() const;
+%Docstring
+Overrides system locale
+
+:return: the optional override for system locale.
+
+.. versionadded:: 3.8
+%End
+
+    bool showGroupSeparator() const;
+%Docstring
+Show group (thousand) separator
+
+:return: if group separator must be shown, default to ``False``.
+
+.. versionadded:: 3.8
+%End
+
+    int wmsMaxHeight() const;
+%Docstring
+Returns the server-wide max height of a WMS GetMap request. The lower one of this and the project configuration is used.
+
+:return: the max height of a WMS GetMap request.
+
+.. versionadded:: 3.8
+%End
+
+    int wmsMaxWidth() const;
+%Docstring
+Returns the server-wide max width of a WMS GetMap request. The lower one of this and the project configuration is used.
+
+:return: the max width of a WMS GetMap request.
+
+.. versionadded:: 3.8
+%End
+
+};
+
+/************************************************************************
+ * This file has been generated automatically from                      *
+ *                                                                      *
+ * src/server/qgsserversettings.h                                       *
+ *                                                                      *
+ * Do not edit manually ! Edit header and run scripts/sipify.pl again   *
+ ************************************************************************/
