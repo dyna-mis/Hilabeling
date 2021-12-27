@@ -41,7 +41,7 @@ as a major ingredient for an interactive labeling editor.
 
 This is the QGIS labeling integration model of the open source project Hi-Labeling---an interactive labeling project developed at the  Institute of Logic and Computation, TU Wien, Vienna, Austria.
 
-<iframe src="https://www.youtube.com/embed/1yXoEF6kSD8,frameborder="0" allowfullscreen></iframe>
+<iframe width = "623", height = "385.53", src="https://www.youtube.com/embed/1yXoEF6kSD8,frameborder="0" allowfullscreen></iframe>
 
 So far our framework contains various labeling algoritghms, intrgated into the QGIS labeling engine.
 simple[weighted/ stable]( corresponds to the algorithm Greedy in our paper)<br /> 
