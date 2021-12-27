@@ -40,11 +40,19 @@ as a major ingredient for an interactive labeling editor.
 
 
 This is the QGIS labeling integration model of the open source project Hi-Labeling---an interactive labeling project developed at the  Institute of Logic and Computation, TU Wien, Vienna, Austria.
+
+<iframe src="https://www.youtube.com/embed/1yXoEF6kSD8,frameborder="0" allowfullscreen></iframe>
+
 So far our framework contains various labeling algoritghms, intrgated into the QGIS labeling engine.
+simple[weighted/ stable]( corresponds to the algorithm Greedy in our paper)<br /> 
+ mis [weighted/ stable]<br /> 
+ kamis [unweighted/unstable] (see http://algo2.iti.kit.edu/kamis/)<br /> 
+ maxHS [weighted/ stable]<br /> 
+ 
 
 
 
-<iframe style="text-align: center", src="https://www.youtube.com/embed/1yXoEF6kSD8,frameborder="0" allowfullscreen></iframe>
+
 
 
 ## Licence
