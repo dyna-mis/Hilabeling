@@ -64,9 +64,13 @@ If you want to know more about our implemented algorithms, please refer to our p
 Fabian Klute, Guangping Li, Raphael Löffler, Martin Nöllenburg, Manuela Schmidt<br>
 Advances in Geographic Information Systems (SIGSPATIAL'19) (eds. Farnoush Banaei Kashani, Goce Trajcevski etc.), pages 13–22. ACM, 2019.<br>
 [[bibtex]](https://www.ac.tuwien.ac.at/publications/fs-esl-19?file=../../publications/noellenburg-ac-web.bib) [[pdf]](https://arxiv.org/abs/1910.07799) [[doi]](https://dx.doi.org/10.1145/3347146.3359359)
-
-
 Please acknowledge our work if you publish your result using our algorithms or code.
+                                                                      
+                                                                      
+QgsLabelingEngine: https://qgis.org/api/classQgsLabelingEngine.html#details <br /> 
+
+
+
 
 
 ## Support
