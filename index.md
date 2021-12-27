@@ -44,6 +44,8 @@ So far our framework contains various labeling algoritghms, intrgated into the Q
 
 
 
+<iframe width="420" height="315" src="https://youtu.be/1yXoEF6kSD8" frameborder="0" allowfullscreen></iframe>
+
 
 ## Licence
 
